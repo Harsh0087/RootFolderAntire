@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking meter</title>
+</head>
+<script>
+function show(){
+    // get the time input
+    const entryTime= document.getElementById("entryTime").value;
+    const outTime= document.getElementById("outTime").value;
+    // convert the time inputs into minutes
+    const minutes1= timeToMinutes (entryTime);
+    // const minutes2= 
+}
+</script>
+
+<body>
+    <form action="">
+
+        <div>
+            Parking
+            <div id="entryTime">InTime <input type="time"></div>
+            <div id="outTime">OutTime<input type="time"></div>
+            <Div id="totalTime">total <input type="time"></Div>
+            <div id="totalBill">bill <input type="text"></div>
+            <div><input id="okButton" type="button" value="ok" onclick="show()"><input id="resetButton" type="reset"></div>
+        </div>
+    </form>
+</body>
+
+</html>
